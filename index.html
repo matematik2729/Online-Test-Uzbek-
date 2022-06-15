@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mantiqiy Savollar</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+    />
+  </head>
+  <body>
+    <!-- Testni boshlash tugmasi -->
+    <div class="start_btn"><button>Testni Boshlash</button></div>
+
+    <!-- Qoidalar -->
+    <div class="info_box">
+      <div class="info-title"><span>Testni ishlash qoidalari</span></div>
+      <div class="info-list">
+        <div class="info">
+          1. Sizda har bir savol uchun <span>15 soniya</span> berilgan.
+        </div>
+        <div class="info">
+          2. Javobni tanlash uchun 1 dona imkoniyat berilgan.
+        </div>
+        <div class="info">3. Agar vaqt tugasa variantlarni yo'qo'ladi.</div>
+
+        <div class="info">4. To'g'ri javoblaringiz asosida ball olasiz.</div>
+      </div>
+      <div class="buttons">
+        <button class="quit">Testdan Chiqish</button>
+        <button class="restart">Davom Ettirish</button>
+      </div>
+    </div>
+
+    <!-- Test Box -->
+    <div class="quiz_box">
+      <header>
+        <div class="title">Mantiqiy Savollar</div>
+        <div class="timer">
+          <div class="time_left_txt">Qolgan Vaqt</div>
+          <div class="timer_sec">15</div>
+        </div>
+        <div class="time_line"></div>
+      </header>
+      <section>
+        <div class="que_text">
+          <!-- Bu yerga test kiritiladi JavaScript orqali -->
+        </div>
+        <div class="option_list">
+          <!-- Bu yerga variantlar kiritiladi JavaScript orqali -->
+        </div>
+      </section>
+
+      <!-- Test Box ni footer qismi -->
+      <footer>
+        <div class="total_que">
+          <!-- Bu yerga sanalgan savollar kiritiladi JavaScript orqali -->
+        </div>
+        <button class="next_btn">Keyingisi</button>
+      </footer>
+    </div>
+
+    <!-- Natija Box -->
+    <div class="result_box">
+      <div class="icon">
+        <i class="fas fa-crown"></i>
+      </div>
+      <div class="complete_text">Siz Testni Tugatdingiz!</div>
+      <div class="score_text">
+        <!-- Bu yerga natijalar kiritiladi JavaScript orqali -->
+      </div>
+      <div class="buttons">
+        <button class="restart">Testni Qaytarish</button>
+        <button class="quit">Testdan Chiqish</button>
+      </div>
+    </div>
+
+    <script src="js/savollar.js"></script>
+    <script src="js/script.js"></script>
+  </body>
+</html>
