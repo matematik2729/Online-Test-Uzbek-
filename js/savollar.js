@@ -33,17 +33,17 @@ let questions = [
     numb: 5,
     question: "Qaysi oyda 28 kun bor?",
     answer: "Hamma oyda",
-    options: ["Hamma oyda.", "Fevral oyida", "4 yilda 3 marta Fevralda"],
+    options: ["Hamma oyda", "Fevral oyida", "4 yilda 3 marta Fevralda"],
   },
   {
     numb: 6,
     question:
       "Akbar sakkizga to’lganida otasi 31 yoshda edi. Endi esa otasi Akbardan ikki baravar katta. Xo’sh, Akbar necha yoshga kirdi?",
-    answer: "Akbar 23 yoshda, otasi 46 yoshda;",
+    answer: "Akbar 23 yoshda, otasi 46 yoshda",
     options: [
-      "Akbar 22 yoshda, otasi 43 yoshda;",
+      "Akbar 22 yoshda, otasi 43 yoshda",
       "Akbar 23 yoshda, otasi 46 yoshda",
-      "Akbar 24 yoshda, otasi 47 yoshda;",
+      "Akbar 24 yoshda, otasi 47 yoshda",
     ],
   },
   {
